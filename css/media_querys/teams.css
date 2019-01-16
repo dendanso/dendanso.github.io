@@ -254,6 +254,10 @@
 	.brian_bio ul {
 		margin-top:250px;
 	}
+	.brian_bio p,.pearl_bio p,.esi_bio p,.carl_bio p,.ekow_bio p{
+		font-size: 14px;
+	}
+
 }
 
 
@@ -455,7 +459,7 @@
 
 	.menu_reveal{
 		position: relative;
-		left: 0px;
+		left: 30px;
 		display: block;
 
 	}
@@ -518,7 +522,12 @@
 @media only screen and (max-height: 651px){
 	.banner_container1{
 		 height: 140vh;
+
 	}
+	.brian_bio p,.pearl_bio p,.esi_bio p,.carl_bio p,.ekow_bio p{
+		font-size: 13px;
+	}
+
 }
 
 @media only screen and (max-height: 569px){
