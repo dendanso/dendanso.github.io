@@ -339,6 +339,13 @@
 
 
 @media only screen and (max-width:910px){
+	body{
+		font-size: 13px;
+	}
+
+	.container{
+		width: 80%;
+	}
 	.menu{
 	position: absolute;
 	z-index: 3;
@@ -479,6 +486,7 @@
 
 	.feature12_container {
   		left:15%;
+  		margin-top: 277px;
 	}
 
 	.feature56_container {
@@ -499,6 +507,10 @@
 	.map {
    
     margin-top: 200px;
+    
+	}
+	.map_sec{
+		background: #f1f2f2;
 	}
 
 	.splash {
@@ -535,12 +547,22 @@
 		font-size: 8px;
 		width: 150px;
 	}
+	.welcome_content {
+    margin-top: 300px;
+	}
+	.map {
+    margin-top: 403px;
+    }
+    .intro {
+    
+    font-size: 12px;
+}
 	
 }
 
 /* query heights*/
 
-@media only screen and (max-width: 569px){
+@media only screen and (max-height: 569px){
 
 
 	.container_s {
@@ -548,7 +570,7 @@
 	     width: 100%; 
 	}
 	.welcome_content {
-	    margin-top: 250px;
+	    margin-top: 300px;
 	}
 	.feature12_container {
     	left: 0;

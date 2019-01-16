@@ -769,7 +769,7 @@ footer{
 
 	}
 }
-@media only screen and (max-height:1367px){
+@media (max-height: 1366px) and (max-width: 1024px){
 	.sub_trans2 {
     font-size: 15px;
     
@@ -779,9 +779,10 @@ footer{
     font-size: 18px;
     
 	}
-	.arrow{
-		display: block;
-		opacity: 1;
+	.flexbox{
+		margin:0px auto;
+		width: 80%;
+		text-align: center;
 	}
 	.trans1 {
     font-size: 18px;
@@ -811,10 +812,85 @@ footer{
     .blue_content {
     width: 30%;
     font-size: 15px;
+    padding-top: 100px;
+
 	}
+	.hands{
+	margin-top: 100px;
+	}
+	.content4{
+		height: 40vh;
+	}
+	
+}
+
+@media (max-height: 1024px) and (max-width: 768px){
+
+	.blue_back{
+		height: 100vh;
+	}
+	.hands{
+		width: 50%;
+	}
+	.wait_container h1 {
+    	padding-top: 100px;
+	}
+	.content4{
+		height: 60vh;
+	}
+}
+
+@media (max-height: 640px) and (max-width: 360px){
+
+	.flexbox{
+		width: 100%;
+	}
+	.content4{
+		height: 80vh;
+	}
+	.content3{
+		margin-top: 500px;
+	}
+	.blue_content{
+		margin-top: -200px;
+	}
+	.hands{
+		margin-top: 150px;
+	}
+	.cars_container {
+    
+    height: 15vh;
+	}
+	.menu{
+		top: 20px;
+	}
+	
+
 
 	
 }
+
+@media (max-height: 568px) and (max-width: 320px){
+	.blue_content {
+		margin-left: -30px;
+
+	}
+	.content5{
+		margin-top: 100px;
+	}
+
+	.fuel_sub {
+    	font-size: 12px;
+
+	}
+
+}
+
+
+
+
+
+
 
 
 
@@ -856,16 +932,13 @@ footer{
 	}
 	.trans1{
 		width: 100%;
-		text-align: center;
+		
 	}
 	.trans2{
 		width: 100%;
-		text-align: center;
+		
 	}
-	.flexbox{
-		margin:0px auto;
-		width: 60%;
-	}
+	
 
 	.fuel_container{
 		width: 50%;
@@ -1031,7 +1104,7 @@ footer{
 
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:650px){
 	.banner_caption{
 		top:30%;
 		font-size: 16px;
@@ -1104,7 +1177,7 @@ footer{
 		font-size:14px;
 	}
 	.content3 {
-    margin-top: 90vh;
+    margin-top: 150vh;
 	}
 
 	.cars_container {
@@ -1196,13 +1269,14 @@ footer{
 }
 
 /* query heights*/
-@media only screen and (max-width: 569px){
-	.content3 {
-    margin-top: 130vh;
+@media screen and (max-width: 569px){
+	.content2 {
+    height: 1100px;
 	}
 
+
 	.content5 {
-    margin-top: 250px;
+       margin-top: 346px;
 	}
 
 	.blue_back {
@@ -1226,4 +1300,21 @@ footer{
 	left: 25%;
     width: 100%;
 	}
+
+	.menu{
+		top: 20px;
+
+	}
+	.flexbox{
+		width: 100%;
+	}
+	.blue_content {
+		margin-top: -200px;
+	}
+	.hands{
+		top: -280px;
+
+	}
 }
+
+
