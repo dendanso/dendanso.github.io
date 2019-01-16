@@ -509,10 +509,7 @@
     margin-top: 200px;
     
 	}
-	.map_sec{
-		background: #f1f2f2;
-	}
-
+	
 	.splash {
      left: 0;
      margin: 0;
@@ -574,7 +571,7 @@
 	}
 	.feature12_container {
     	left: 0;
-    	margin-top: 250px;
+    	margin-top: 350px;
 	}
 	.feature1, .feature2 {
     width: 60%;
@@ -601,4 +598,13 @@
     left: 110px;
 }
 
+}
+
+@media (max-height: 568px) and (max-width: 320px){
+	.feature8{
+		padding:75px;
+	}
+	.feature7{
+		padding:75px;
+	}
 }

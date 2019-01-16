@@ -872,7 +872,7 @@ footer{
 
 @media (max-height: 568px) and (max-width: 320px){
 	.blue_content {
-		margin-left: -30px;
+		margin-left: -60px;
 
 	}
 	.content5{
@@ -1098,6 +1098,11 @@ footer{
 	.mother{
 		margin-bottom:350px; 
 	}
+	.sub_big_idea{
+		font-size: 13px;
+		position: absolute;
+		left: 0;
+	}
 
 
 
@@ -1250,6 +1255,7 @@ footer{
 	.blue_content h1{
 		font-size:2em;
 	}
+	
 	.traffic{
 		padding-top: 50px;
 	}
@@ -1265,6 +1271,10 @@ footer{
 	}
 	.logo{
 		font-size: 12px;
+	}
+	.blue_back p:last-child {
+   	position:relative; 
+    margin-top: 50px;
 	}
 }
 
@@ -1310,11 +1320,16 @@ footer{
 	}
 	.blue_content {
 		margin-top: -200px;
+		width: 60%;	
+		margin-left: -60px;
+		text-align: center;
 	}
 	.hands{
 		top: -280px;
 
 	}
+
+
 }
 
 
