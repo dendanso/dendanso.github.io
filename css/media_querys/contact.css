@@ -114,6 +114,7 @@
 }
 
 @media only screen and (max-width:999px){
+
 	.contact_flex{
 		flex-direction: column;
 		transform: scale(.9);
@@ -219,6 +220,14 @@
 
 
 }
+
+@media only screen and (max-width:641px){
+	body{
+		opacity: 0;
+	}
+
+}
+
 
 
 

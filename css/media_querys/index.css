@@ -1333,3 +1333,412 @@ footer{
 }
 
 
+/*landscape Orientation*/
+
+@media (max-height: 414px) and (max-width: 736px){
+	.menu{
+		top: 25px;
+	}
+	.carpool_text{
+		opacity: 0;
+	}
+	.carpool_logo{
+		width: 60%;
+	}
+	.banner_container{
+		height: 100vh;
+	}
+	.banner_foot_caption {
+		display: none;
+	}
+	.button {
+		margin-top: 100px;
+		margin-left: -10px;
+	}
+	.sub_big_idea  {
+		position:relative;
+		text-align: center;
+	}
+	.expense {
+		margin-left: 0;
+	}
+	.content2{
+		height: 350vh;
+	}
+	.cars_container {
+    height: 20vh;
+	}
+	.pollute_container p {
+    	 width: 100%;
+	}
+	.wait_container{
+		width: 100%;
+		left: 0;
+	}
+
+	.wait_container h1{
+		width: 50%;
+		padding-left: 250px;	
+		padding-top: 0;
+		font-size: 3em;
+	}
+	.local_sub2 {
+		padding-top:30px;
+	}
+
+	.blue_back{
+		margin-top: 350px;
+	}
+	.blue_content{
+		margin-top: -250px;
+		width: 60%;	
+			
+		left: 10%;
+
+	}
+	.hands{
+		right: 0;
+		left: 70%;
+		top: 0;
+	}
+	.traffic p {
+    	width: 100%; 
+	}
+	.foot1,.foot2{
+		opacity: 0;
+	}
+	.foot3{
+		position:absolute;
+		bottom: 0;
+		left: 35%;
+	}
+	.icons{
+		width: 400px;
+	}	
+	footer{
+		height: 10vh;
+	}
+	.mother{
+		margin-bottom: 50px;
+	}
+
+
+
+}
+
+@media (max-width: 812px)and (max-height:400px){
+		.menu{
+		top: 25px;
+	}
+	.carpool_text{
+		opacity: 0;
+	}
+	.carpool_logo{
+		width: 60%;
+	}
+	.banner_container{
+		height: 100vh;
+	}
+	.banner_foot_caption {
+		display: none;
+	}
+	.button {
+		margin-top: 100px;
+		margin-left: -10px;
+	}
+	.sub_big_idea  {
+		position:relative;
+		text-align: center;
+	}
+	.expense {
+		margin-left: 0;
+	}
+	.content2{
+		height: 350vh;
+	}
+	.cars_container {
+    height: 20vh;
+	}
+	.pollute_container p {
+    	 width: 100%;
+	}
+	.wait_container{
+		width: 100%;
+		left: 0;
+	}
+
+	.wait_container h1{
+		width: 50%;
+		padding-left: 280px;	
+		padding-top: 0;
+		font-size: 3em;
+	}
+	.local_sub2 {
+		padding-top:30px;
+	}
+
+	.woman_waiting img:nth-child(1) {
+		top: -19vh;
+	}
+
+	.blue_back{
+		margin-top: 350px;
+		height: 100vh;
+	}
+	.blue_content{
+		margin-top: -250px;
+		width: 60%;	
+			
+		left: 10%;
+
+	}
+	.hands{
+		right: 0;
+		left: 70%;
+		top: 0;
+	}
+	.traffic p {
+    	width: 100%; 
+	}
+	.foot1,.foot2{
+		opacity: 0;
+	}
+	.foot3{
+		position:absolute;
+		bottom: 0;
+		left: 35%;
+	}
+	.icons{
+		width: 400px;
+	}	
+	footer{
+		height: 10vh;
+	}
+	.mother{
+		margin-bottom: 50px;
+	}
+	.description1 {
+    	width: 100%; 
+	}
+	.description {
+    	width: 100%; 
+
+	}
+	.expense {
+    text-align: center;
+	}
+	.blue_back:after {
+    content: '';
+    height: 44vh;
+	}
+
+
+}
+
+@media (max-width: 736px)and (max-height:450px){
+
+	.description1 {
+    	width: 100%; 
+	}
+	.description {
+    	width: 100%; 
+
+	}
+	.expense {
+    text-align: center;
+	}
+
+}
+
+@media (max-width: 668px)and (max-height:378px){
+	.woman_waiting img:nth-child(1) {
+		top: 0;
+	}
+
+}
+
+@media (max-width: 579px)and (max-height:321px){
+	.woman_waiting img:nth-child(1) {
+		display: none;
+	}
+	.button {
+		margin-top: 55px;
+		margin-left: -10px;
+	}
+	.cars_container {
+    height: 39vh;
+	}
+	.cars_container div:nth-child(2) {
+   
+     margin-left: 0px;
+	}
+
+	.wait_container h1{
+		padding-left: 0;
+		margin: 0px auto;
+
+	}
+	.blue_content{
+		margin-top: -250px;
+		width: 60%;	
+			
+		left: 20%;
+
+	}
+	.hands{
+		top: -30vh;
+	}
+
+	
+
+
+}
+
+@media (max-width: 824px)and (max-height:412px){
+		.menu{
+		top: 25px;
+	}
+	.carpool_text{
+		opacity: 0;
+	}
+	.carpool_logo{
+		width: 60%;
+	}
+	.banner_container{
+		height: 100vh;
+	}
+	.banner_foot_caption {
+		display: none;
+	}
+	.button {
+		margin-top: 100px;
+		margin-left: 0px;
+	}
+	.sub_big_idea  {
+		position:relative;
+		text-align: center;
+	}
+	.expense {
+		margin-left: 0;
+	}
+	.content2{
+		height: 350vh;
+	}
+	.cars_container {
+    height: 20vh;
+	}
+	.pollute_container p {
+    	 width: 100%;
+	}
+	.wait_container{
+		width: 100%;
+		left: 0;
+	}
+
+	.wait_container h1{
+		width: 50%;
+		padding-left: 280px;	
+		padding-top: 0;
+		font-size: 3em;
+	}
+	.local_sub2 {
+		padding-top:30px;
+	}
+
+	.woman_waiting img:nth-child(1) {
+		top: -19vh;
+	}
+
+	.blue_back{
+		margin-top: 350px;
+		height: 100vh;
+	}
+	.blue_content{
+		margin-top: -250px;
+		width: 60%;	
+			
+		left: 10%;
+
+	}
+	.hands{
+		right: 0;
+		left: 70%;
+		top: 0;
+	}
+	.traffic p {
+    	width: 100%; 
+	}
+	.foot1,.foot2{
+		opacity: 0;
+	}
+	.foot3{
+		position:absolute;
+		bottom: 0;
+		left: 35%;
+	}
+	.icons{
+		width: 400px;
+	}	
+	footer{
+		height: 10vh;
+	}
+	.mother{
+		margin-bottom: 50px;
+	}
+	.description1 {
+    	width: 100%; 
+	}
+	.description {
+    	width: 100%; 
+
+	}
+	.expense {
+    text-align: center;
+	}
+	.blue_back:after {
+    content: '';
+    height: 44vh;
+	}
+
+
+}
+
+@media (max-width: 641px)and (max-height:361px){
+
+	.button {
+		margin-top: 60px;
+		margin-left: 0px;
+	}
+	.flexbox{
+		margin: 0px auto;
+	}
+	.cars_container {
+    height: 40vh;
+	}
+	.wait_container h1{
+		padding-left: 0;
+		margin: 0px auto;
+
+	}
+	.blue_content{
+		margin-top: -250px;
+		width: 40%;	
+			
+		left: 20%;
+
+	}
+	.hands{
+		top: -30vh;
+	}
+	.blue_back p:last-child {
+		position: absolute;
+	}
+
+
+}
+
+
+
+
+
+
