@@ -1,3 +1,12 @@
+
+body{
+	padding: 0px;
+	margin: 0px;
+	line-height: 2;
+	letter-spacing: 5px;
+	font-family: 'Orbitron',gotaham, sans-serif;
+
+}
 .banner_container1{
 	width:100%;
 	height:65vh;
@@ -256,7 +265,7 @@ nav ul li:nth-child(5) a{
 #arrow2{
 	position: absolute;
 	right:  7%;
-	top:41%;
+	
 }
 
 svg{
@@ -501,6 +510,7 @@ footer{
 	left: 0;
 	right: 0;
 	
+	
 	overflow: hidden;
 	margin-top: 10vh;
 
@@ -550,6 +560,12 @@ footer{
 
 .carpool_text{
 	margin-left:100px;
+}
+
+.arrows{
+	position: relative;
+	width: 100%;
+	height: 0vh;
 }
 
 

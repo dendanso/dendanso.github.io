@@ -220,7 +220,7 @@
 	}
 
 	.banner_container1{
-		height: 10vh;
+		height: 5vh;
 	}
 
 	.logo img{
@@ -267,7 +267,7 @@
 
 	.feature1{
 		left:100px;
-		top: -100px;
+		top: 35px;
 	}
 	.feature2{
 		left: 200px;
@@ -288,6 +288,10 @@
 
 	}
 
+	.feature12_container {
+    margin-top: 35px;
+	}
+
 	.feature56_container {
     position: relative;
     top: -300px;
@@ -300,7 +304,7 @@
 	}
 
 	.splash {
-     margin-top: -200px;
+     margin-top: -50px;
      width: 100%;
      margin-left: 100px;
 	}
@@ -345,6 +349,7 @@
 
 	.container{
 		width: 80%;
+		overflow: hidden;
 	}
 	.menu{
 	position: absolute;
@@ -390,6 +395,7 @@
 		position: relative;
 		left: -10%;
 		transition: all 1s cubic-bezier(0, .13, .04, 1);
+		padding:10px;
 		
 
 	}
@@ -419,7 +425,7 @@
 	.play_button{
 	display: block;
 	position: relative;
-	left: 10%;
+	left: 0%;
 	cursor: pointer;
 	
 	}
@@ -548,7 +554,7 @@
     margin-top: 300px;
 	}
 	.map {
-    margin-top: 403px;
+    margin-top: 550px;
     }
     .intro {
     
@@ -558,6 +564,55 @@
 }
 
 /* query heights*/
+@media only screen and (max-width: 769px){
+	.welcome_content {
+    margin-top: 100px;
+	}
+	.feature12_container {
+    
+    margin-top: 250px;
+	}
+	.feature56_container {
+    top: 0px;
+    left: 122px;
+    height: 60vh;
+	}
+	.play_button{
+	left: 35%;
+	}
+	.container{
+		overflow: hidden;
+	}
+	.box2s {
+		overflow: hidden;
+	}.video_container {
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.welcome_content {
+    margin-top: 250px;
+	}
+	.feature12_container {
+    
+    margin-top: 450px;
+	}
+	.feature56_container {
+    top: 0px;
+    left: 20px;
+    height: 60vh;
+	}
+	.play_button{
+	left: 20%;
+	}
+	.show_height {
+    height: 53vh;
+   
+	}
+}
+
+
 
 @media only screen and (max-height: 569px){
 

@@ -6,6 +6,7 @@ body{
 	line-height: 2.5;
 	letter-spacing: 5px;
 	font-family: 'Orbitron',gotaham, sans-serif;
+	
 
 
 }
@@ -228,7 +229,7 @@ video{
 .feature12_container{
 	position: relative;
 	margin-top: 200px;
-	overflow: hidden;
+	
 }
 
 .feature34_container{
@@ -274,9 +275,9 @@ video{
 	background-size: 80%;
 	background-position: center;
 	background-repeat: no-repeat;
-	left:300px;
+	left:202px;
 	position: relative;
-	top: -150px;
+	top: 0px;
 	transform:translateY(100px);
 
 	transition: all 1s cubic-bezier(0, .13, .04, 1);
@@ -533,5 +534,45 @@ footer{
 .play_button{
 	display: none;
 	
+}
+
+/*ipad pro portrait orientation*/
+@media(max-width:1025px) and (max-height:1367px){
+	body{
+		font-size: 15px;
+	}
+	.banner_container1{
+		height: 5vh;
+	}
+	.container_s {
+    
+   		width: 100%;
+   		margin:0;
+   	}
+   	.container{
+       	width: 80%;
+   	}
+   	.intro {
+    	font-size: 13px;
+	}
+	.welcome_content {
+    	width: 50%;
+    	top: 22%;
+	}
+	.feature12_container {
+    	margin-top: -29px;
+	}
+	.feature34_container {
+        top: -851px;
+	}
+	.section2 {
+        height: 19vh;
+	}
+	.section_sign {
+    	height: 45vh;
+	}	
+	.feature7,.feature8{
+		width: 90%;
+	}
 }
 

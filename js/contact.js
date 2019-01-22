@@ -2,6 +2,7 @@ var elementCount = 5;
 var current = 1;
 var move = 0;
 var value = 400;
+var fig = false;
 
 	$(document).ready(function(){
 		$('#arrow2').click(function(){
@@ -533,8 +534,8 @@ var value = 400;
 
 		$('.menu1').click(function(){
 			$('.banner_dark1').toggleClass('show');
-		})
-
+				
+		});
 		$('.menu1').click(function(){
 			$('nav ul li ').each(function(i){
 
