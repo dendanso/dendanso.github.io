@@ -168,13 +168,12 @@ footer{
 		position: absolute;
 		left: 32%;
 
-
 	}
 
 	.phone{
 		background-size:60%;
 		position: absolute;
-		margin-top: -150px;
+		top: 50px;
 		
 
 }
@@ -250,7 +249,7 @@ footer{
 	.phone{
 		background-size:50%;
 		position: absolute;
-		margin-top: -250px;
+		top: 0px;
 
 }
 .smoke{

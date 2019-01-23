@@ -1,0 +1,289 @@
+
+/*Global*/
+body{
+	padding: 0px;
+	margin: 0px;
+	line-height: 2.5;
+	letter-spacing: 5px;
+	font-family: 'Orbitron',gotaham, sans-serif;
+
+}
+
+.container{
+	margin: 0px auto;
+	width:60%;
+	
+}
+
+.operations{
+	background: #E6E7E8;
+}
+
+.security{
+	background: #F1F2F2;
+}
+
+h1{
+	padding: 0px;
+	margin: 0px;
+	font-size: 2.7em;
+	color:#009290;
+}
+
+h6{
+	padding-left:20px;
+	font-size: 16px;
+	color: #FBB040;
+}
+
+h5{
+	
+	font-size: 31px;
+	color: #FBB040;
+}
+
+/*Banner*/
+.banner_container1{
+	width:100%;
+	height:8vh;
+	color:#fff;
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	overflow:hidden;
+}
+
+.banner_img_container{
+	width:inherit;
+	height: inherit;
+	position: absolute;
+	z-index: -1;
+	
+	
+
+}
+
+
+
+
+
+
+
+
+.banner_img3{
+	background: url(../images_720/bg_720.png);
+	width: inherit;
+	height: inherit;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	position: absolute;
+	transition: all .5s;
+	transition-delay: .4s;
+	
+	
+	
+
+}
+
+
+
+
+.header_container{
+
+	margin: 20px auto;
+	width:80%;
+	overflow: hidden;
+}
+
+.logo{
+	float: left;
+	padding-top:15px;
+	font-weight: 900; 
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+
+nav ul{
+	list-style: none;
+	
+
+	
+}
+
+nav ul li{
+	display: inline-block;
+	padding-left: 80px;
+	float: right;
+
+
+
+
+}
+
+nav ul li a{
+	
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	transition:all .2s ease-in;
+
+}
+
+nav ul li:nth-child(5) a{
+	font-weight: 900;
+	color: yellow;
+	
+
+}
+
+nav ul li a:hover{
+	
+	font-weight: 900;
+	color: yellow;
+	font-size: 18px;
+	transform-origin: top left;
+
+
+}
+
+
+/*flexbox*/
+
+.flexbox{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin-top: 10px;
+	padding: 50px;
+}
+
+.box1{
+	width: 40%;
+}
+
+.box2{
+	width: 60%;
+}
+
+/*image divs*/
+
+.logo_flat{
+	background: url(../images_720/icon_logo.png);
+	width: 450px;
+	height: 300px;
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat;	
+	position: absolute;
+	right: 150px;
+
+
+}
+
+.icon1{
+	background: url(../images_720/icon_1.png);
+	width: 200px;
+	height: 150px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;	
+	
+
+}
+
+.icon2{
+	background: url(../images_720/icon_2.png);
+	width: 200px;
+	height: 150px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;	
+
+}
+.iphone{
+	background: url(../images_720/hand_phone.png);
+	width: 400px;
+	height: 550px;
+	background-size: 70%;
+	background-position: center;
+	background-repeat: no-repeat;	
+	margin-top:70px; 
+
+}
+
+/*Third content*/
+
+.third_content{
+	text-align: justify;
+	padding: 60px;
+	padding-top:70px;
+
+}
+
+/*footer*/
+
+footer{
+	background: black;
+	color:white;
+	padding: 7%;
+	font-size:15px;
+	
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	overflow: hidden;
+
+
+}
+
+.footer_flex{
+	display:flex;
+	flex-direction:row;
+	
+	line-height: 2;
+}
+
+.foot1{
+	width: 30%;
+}
+
+.foot1 div{
+	width: 80%;
+}
+
+.foot1 div h4{
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.foot2{
+	width: 30%;
+}
+.foot3{
+	width: 30%;
+}
+
+
+.icons div{
+	width: 10%;
+	float:left;
+	margin-top:10px;
+	cursor: pointer;
+}
+
+.carpool_logo{
+	position: absolute;
+	margin-top: -15px;
+	
+}
+
+.carpool_text{
+	margin-left:100px;
+}
+
+

@@ -1,0 +1,576 @@
+
+body{
+	padding: 0px;
+	margin: 0px;
+	line-height: 2;
+	letter-spacing: 5px;
+	font-family: 'Orbitron',gotaham, sans-serif;
+
+}
+.banner_container1{
+	width:100%;
+	height:65vh;
+	color:#fff;
+	position: relative;
+	overflow: hidden;
+}
+
+.contact_flex{
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	
+	margin-top:80px;
+
+	width: 100%;
+	height: auto;
+	justify-content: space-around;
+
+
+}
+
+.contact_flex div{
+	
+	width: 30%;
+
+	height:auto;
+	margin:.5%; 
+}
+
+
+.contact_flex h2{
+	
+	font-weight:900;
+	font-size:3em;
+	
+	padding: 0;
+	margin:0; 
+}
+
+
+
+.contact_flex p{
+	
+	
+	
+	padding: 0;
+	margin:0; 
+}
+
+
+.signature{
+	text-align: right;
+	padding-right:50px;
+	font-style: italic;
+}
+
+.signature span{
+	font-weight:bold;
+}
+
+nav ul li:nth-child(2) a{
+	font-weight: 900;
+	color: yellow;
+	
+
+}
+
+nav ul li:nth-child(5) a{
+	font-weight: 100;
+	color: #fff;
+	
+
+}
+
+.pearl{
+	background:url(../images_720/pearlvis.jpg);
+	
+	
+	width: 400px;
+	height: 400px;
+	background-position: center;
+	background-size:80%;
+	overflow: hidden;
+	float: left;
+}
+.esi{
+	background:url(../images_720/elorm.jpeg);
+	
+	
+	width: 400px;
+	height: 400px;
+	background-position: center;
+	background-size:100%;
+	overflow: hidden;
+	float: left;
+}
+
+
+.brian{
+	background:url(../images_720/brian.jpg);
+	width: 400px;
+	height: 400px;
+	float: left;
+	background-size: cover;
+}
+
+.ekow{
+	background:url(../images_720/ekow.jpg);
+	width: 400px;
+	height: 400px;
+	float: left;
+	background-size: cover;
+}
+
+.elorm{
+	background:url(../images_720/elorm.jpg);
+	
+	
+	width: 400px;
+	height: 400px;
+	background-position: center;
+	background-size:100%;
+	overflow: hidden;
+	float: left;
+}
+
+
+.carl{
+	background:url(../images_720/carl.jpg);
+	
+	
+	width: 400px;
+	height: 400px;
+	background-position: center;
+	background-size:80%;
+	overflow: hidden;
+	float: left;
+}
+
+
+.team_container{
+	position: relative;
+	left:10%;
+	top:15%;
+}
+
+.slide{
+	width: 2000px;
+	transition: all 1s cubic-bezier(0, .13, .04, 1);
+
+}
+
+.team_img_container{
+	width: 400px;
+	height: 400px;
+	float: left;
+	border-radius: 50%;
+	border:4px #fff solid;
+	overflow: hidden;
+}
+
+.bio p{
+	width: 70%;
+	font-size:21px;
+}
+
+.bio h2{
+	
+	font-size:3em;
+	padding: 0px;
+	margin: 0px;
+}
+
+.bio{
+	
+	width: 70%;
+	padding-top: 100px;
+	padding-left: 300px;
+	margin-left: 10%;
+}
+.pearl_bio{
+	position:absolute;
+	visibility:visible;
+	transition: all 1s ease-in-out;
+	
+	
+}
+
+.esi_bio{
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	transition-delay: .2s;
+}
+
+.esi_bio p{
+	position: absolute;
+	width: 150%;
+}
+.carl_bio{
+	position:absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition:  all 1s ease-in-out;
+	transition-delay: .5s;
+	width: 600px;
+}
+
+.carl_bio p{
+	position: absolute;
+	font-size: 18px;
+	width: 200%;
+}
+
+.brian_bio{
+	position:absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition:  all 1s ease-in-out;
+	transition-delay: .5s;
+
+}
+
+.brian_bio p{
+	position: absolute;
+	width: 150%;
+	font-size:16px ;
+}
+
+.ekow_bio{
+	position:absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition:  all 1s ease-in-out;
+	transition-delay: .5s;
+}
+
+.ekow_bio p{
+	position: absolute;
+	width: 200%;
+}
+
+.co_founder{
+	font-size: .5em;
+	color: yellow;
+}
+
+#arrow1{
+	position: absolute;
+	left: 5%;
+	top: 25%;
+}
+
+#arrow2{
+	position: absolute;
+	right:  7%;
+	
+}
+
+svg{
+	cursor: pointer;
+}
+
+.team_social{
+	position: absolute;
+	margin: 90px 0 0 50px;
+}
+
+.team_social ul li{
+	width: 50px;
+	list-style: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.team_social ul li:nth-child(1){
+	width: 40px;
+	padding-left:15px;
+}
+
+.team_social ul li:nth-child(3){
+	width: 50px;
+
+}
+
+.solid_back{
+	color: #fff;
+	padding: 13px;
+	font-size:12px;
+	background:#000;
+	border-radius:50px;
+}
+
+.arrow_down{
+	position: absolute;
+	border-left: 30px solid transparent;
+	border-top: 30px solid black;
+	border-right: 30px solid transparent;
+	left: 40px;
+	margin-top: -15px;
+}
+
+.pop-up{
+	position: relative;
+	top: -280px;
+	opacity: 0;
+}
+
+.pop-up2{
+	position: relative;
+	top: -220px;
+	opacity: 0;
+}
+
+.pop-up1{
+	position: relative;
+	top: -250px;
+	opacity: 0;
+}
+
+.tweet{
+	width: 50px;
+	height:50px;
+	cursor:pointer;
+	position: absolute;
+	z-index: 1;
+}
+
+.face{
+	width: 50px;
+	height:50px;
+	cursor:pointer;
+	position: absolute;
+	z-index: 1;
+}
+
+.cont_two{
+	line-height: 2;
+}
+
+.cont_three{
+	line-height: 2;
+}
+
+strong{
+	font-weight: 900;
+	
+}
+
+/*white social stylings*/
+
+.bio ul{
+
+	list-style: none;
+	margin-top:100px;
+	margin-left: 300px;
+
+	
+	
+}
+
+.bio ul li{
+
+	display: inline-block;
+	width: 40px;
+	padding: 10px;
+	
+
+}
+
+.esi_bio ul, .carl_bio ul, .brian_bio ul, .ekow_bio ul{
+	margin-top:240px;
+}
+
+.pop_up_container{
+	position: absolute;
+	width: 100%;
+	margin-top: -7%;
+}
+
+
+.pearl_bio ul div.pop_up_container{
+	position: absolute;
+	width: 100%;
+	margin-top: -3%;
+}
+
+
+
+.pop-up_pearl{
+	position: relative;
+	float: left;
+	left: -40px;
+	visibility: hidden;
+	transform:scale(0);
+	transition: all .3s ease-in-out; 
+	
+}
+.pop-up_pearl_tweet{
+	position: relative;
+	float: left;
+	left: -180px;
+	visibility: hidden;
+	transform:scale(0);
+	transition: all .3s ease-in-out; 
+	
+}
+
+.pop-up_pearl_insta{
+	position: relative;
+	float: left;
+	left: -290px;
+	visibility: hidden;
+	transform:scale(0);
+	transition: all .3s ease-in-out; 
+	
+}
+
+.solid_back1{
+	color: #fff;
+	padding: 13px;
+	font-size:12px;
+	background:#000;
+	width:170px;
+}
+
+
+
+/*brian pop up*/
+
+
+.pop-up_brian{
+	position: relative;
+	float: left;
+	left: -40px;
+	visibility: hidden;
+	transform:scale(0);
+	margin-top:-40px;
+	transition: all .3s ease-in-out; 
+	
+}
+.pop-up_brian_tweet{
+	position: relative;
+	float: left;
+	left: -180px;
+	transform:scale(0);
+	visibility: hidden;
+	transition: all .3s ease-in-out; 
+
+}
+
+.pop-up_brian_insta{
+	position: relative;
+	float: left;
+	left: -290px;
+	visibility: hidden;
+	transform:scale(0);
+	transition: all .3s ease-in-out; 
+	
+}
+
+.carpool_logo{
+	position: absolute;
+	margin-top: -15px;
+	width: 30%;
+	height: 100px;
+}
+
+.carpool_text{
+	margin-left:100px;
+}
+
+
+.brian_face,.esi_face,.pearl_face,.carl_face,.ekow_face{
+	cursor: pointer;
+}
+
+.brian_tweet,.esi_tweet,.pearl_tweet,.carl_tweet,.ekow_tweet{
+	cursor: pointer;
+}
+
+.brian_insta,.esi_insta,.pearl_insta,.carl_insta,.ekow_insta{
+	cursor: pointer;
+}
+.menu1{
+	display: none;
+}
+
+
+/*footer*/
+
+footer{
+	background: black;
+	color:white;
+	padding: 3%;
+	font-size:12px;
+	
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	
+	overflow: hidden;
+	margin-top: 10vh;
+
+
+}
+
+.footer_flex{
+	display:flex;
+	flex-direction:row;
+	
+	line-height: 2;
+}
+
+.foot1{
+	width: 30%;
+}
+
+.foot1 div{
+	width: 80%;
+}
+
+.foot1 div h4{
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.foot2{
+	width: 30%;
+}
+.foot3{
+	width: 30%;
+}
+
+
+.icons div{
+	width: 10%;
+	float:left;
+	margin-top:10px;
+	cursor: pointer;
+}
+
+.carpool_logo{
+	position: absolute;
+	margin-top: -15px;
+}
+
+.carpool_text{
+	margin-left:100px;
+}
+
+.arrows{
+	position: relative;
+	width: 100%;
+	height: 0vh;
+}
+
+
+
+
+
+
+
