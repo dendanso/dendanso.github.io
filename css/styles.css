@@ -18,7 +18,7 @@ body{
 /*Banner*/
 .banner_container{
 	width:100%;
-	height:80vh;
+	height:100vh;
 	color:#fff;
 	position: relative;
 	display: flex;

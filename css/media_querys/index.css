@@ -13,6 +13,7 @@
 
 	.phone{
 		background-size:80%;
+		margin-top: 300px;
 	}
 	.fuel,.fuel_cap{
 		color: #000;
@@ -68,7 +69,9 @@
 	}
 
 	.phone{
-		background-size:80%;
+		background-size:60%;
+		margin-top: 100px;
+		right: 190px;
 	}
 	.fuel,.fuel_cap{
 		color: #000;
@@ -173,7 +176,8 @@ footer{
 	.phone{
 		background-size:60%;
 		position: absolute;
-		margin-top: -150px;
+		margin-top: 0px;
+
 		
 
 }
@@ -249,8 +253,8 @@ footer{
 	.phone{
 		background-size:50%;
 		position: absolute;
-		margin-top: -250px;
-
+		margin-top: -100px;
+		right: 170px;
 }
 .smoke{
 	position: absolute;
